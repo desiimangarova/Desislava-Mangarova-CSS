@@ -1,0 +1,295 @@
+body {
+    background: aliceblue;
+  }
+  
+  body{
+      margin: auto;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background: linear-gradient(to bottom, aliceblue);
+  }
+  
+  .image2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+ 
+  
+  .app-text{
+    width: 70%;
+    float: left;
+    margin: 30px 0 30px 40px;
+    color: #430404;
+}
+
+h6{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    line-height: 1;
+    color: #b50202;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 15px;
+    line-height: 1;
+    color: #750403;
+}
+
+.app-text p{
+    text-align: center;
+    width: 800px;
+    font-size: 17px;
+    line-height: 25px;
+    color: rgb(2, 51, 100);
+}
+
+  
+  .top-container {
+    background: #424551;
+      font-size: 20px;
+      position: relative;
+      padding-top: 150px;
+  }
+
+  img {
+      max-width: 100%;
+      margin: auto;
+    }
+  
+  
+    .finance-skills {
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      color: rgb(2, 51, 100);
+    }
+    
+    .image {
+      width: 50%;
+      height: 100vh;
+      overflow: hidden;
+    }
+    
+    .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .text {
+      width: 50%;
+      padding: 2rem;
+    }
+    
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    
+      .image {
+        width: 100%;
+        height: 50vh;
+      }
+    
+      .text {
+        width: 100%;
+        padding: 1rem;
+      }
+    }
+  
+    .education {
+      margin-top: 3rem;
+      padding: 2rem;
+      background: aliceblue;
+      color: rgb(2, 51, 100);
+    }
+    
+    
+    .university {
+      margin-bottom: 2rem;
+    }
+    
+    .university h4 {
+      font-size: 1.5rem;
+      color: rgb(2, 51, 100);
+      margin-bottom: 0.5rem;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 1.2rem;
+    }
+    
+    th {
+      text-align: center;
+      font-weight: bold;
+      border-bottom: 1px solid #fff;
+    }
+    
+    td {
+      vertical-align: top;
+      padding: 0.5rem;
+      border-bottom: 1px solid #fff;
+    }
+    
+    td ul {
+      margin: 0;
+      padding-left: 1rem;
+      list-style-type: disc;
+    }
+    
+    td ul li {
+      margin-bottom: 0.5rem;
+    }
+    
+    ul {
+      list-style-type: none;
+    }
+    
+    .work-experience {
+      margin-top: 50px;
+    }
+    
+    
+    .work-experience p {
+      font-size: 18px;
+      color: rgb(2, 51, 100);
+      margin-bottom: 10px;
+    }
+    
+    .work-experience b {
+      font-weight: bold;
+      color: rgb(2, 51, 100);
+    }
+    
+    .work-experience li {
+      font-size: 16px;
+      color: rgb(2, 51, 100);
+      margin-bottom: 10px;
+    }
+    
+    .work-experience a {
+      color: rgb(2, 51, 100);
+      text-decoration: none;
+    }
+    
+    .work-experience a:hover {
+      text-decoration: underline;
+    }
+    
+    .work-experience hr {
+      height: 1px;
+      border: none;
+      background-color: #d9d9d9;
+      margin: 50px 0;
+    }
+  
+    .loading-line {
+      height: 10px;
+      background-color: #f1f1f1;
+    }
+    
+    .progress-bar {
+      height: 100%;
+      background-color: #080645;
+    }
+    
+    .qualifications {
+        color: rgb(2, 51, 100);
+    }
+  
+
+  
+    .skills {
+      overflow: hidden;
+    }
+    
+    .skill-row {
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+    
+    .skill-image {
+      float: left;
+      margin-right: 20px;
+    }
+    
+    .skill-text {
+        color: rgb(2, 51, 100);
+      overflow: hidden;
+      text-align: center;
+    }
+    
+    .skill-image1 {
+      float: right;
+      margin-right: 20px;
+    }
+  
+  .finance-skills {
+    color: rgb(2, 51, 100);
+  }
+
+    .buttonClass {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      background-color: darkviolet;
+      border: none;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    .buttonClass:hover {
+      background-color: darkviolet;
+      cursor: pointer;
+    }
+    
+                
+  .bottom-container {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #424551;
+    padding: 20px 0;
+    background-color: white;
+  }
+
+ 
+      
+
+  .footer-link {
+    text-decoration: none;
+    color: #424551;
+    margin-right: 10px;
+  }
+  
+  .footer-link:hover {
+    color: #424551;
+  }
